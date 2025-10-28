@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/user_V001__initial.sql
+
+  - include:
+      file: db/changelog/changeset/user_V002_ALTER.sql
